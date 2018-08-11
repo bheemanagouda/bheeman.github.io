@@ -1,0 +1,207 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+.text-block > p {
+    background: #ecf0f1;
+    border: 1px #dfe4ea solid;
+    box-shadow: 0px 1px 2px;
+    padding: 20px;
+}
+
+.list-items {
+    min-width: 10em;
+    list-style: none;
+    padding: 0;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.list-items > li {
+    border-bottom: 1px #dfe4ea solid;
+    padding: 5px;
+}
+
+.list-items > li:hover {
+    background: #dfe4ea;
+}
+.alert {
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    display: inline-block;
+    margin: 2px 2px;
+}
+
+.danger {
+    border: 1px #ff4757 solid;
+    background: #ff9999; 
+}
+
+.info {
+    border: 1px #1e90ff solid;
+    background: #99d6ff;
+}
+
+.success {
+    border: 1px green solid;
+    background: #80b897;
+}
+
+.card-holder {
+    width: 100%;
+}
+
+.card {
+    display: inline-block;
+    padding: 1em;
+    background: #dfe4ea;
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+    vertical-align: middle;
+    box-shadow: 0px 0px 3px 3px #bbbbbb;
+    max-width: 30%;
+}
+
+.btn {
+    background: #1e90ff;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.message {
+    margin: 5px;
+}
+
+.message-header {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.message.is-info .message-header {
+    background: #1e90ff;
+    padding: 10px;
+}
+
+.message.is-info .message-body {
+    background: #c1def1;
+    padding: 10px;
+}
+
+.message.is-danger .message-header {
+    background: #ff4757;
+    padding: 10px;
+}
+
+.message.is-danger .message-body {
+    background: #ff9999;
+    padding: 10px;
+}
+
+.message.is-success .message-header {
+    background: green;
+    padding: 10px;
+}
+
+.message.is-success .message-body {
+    background: #8fad9c;
+    padding: 10px;
+}
+
+.notification {
+    display: inline-block;
+    padding: 20px;
+}
+
+.notification.is-danger {
+    background: #ff4757;
+}
+
+.notification-close {
+    position: relative;
+    top: 100%;
+    right: 100%;
+}
+
+.page {
+    margin: auto;
+    width: 60%;
+    height: 100%;
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid #dad6d6;
+    padding: 10px;
+    text-align: justify;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.page:hover {
+    box-shadow: 0px 0px 1px 1px #dad6d6;    
+}
+
+.page img {
+    float: left;
+}
+
+.page hr:first hr:last-child {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+body {
+    background-image: url("citybg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.intro {
+    position: fixed;
+    top: 33%;
+    color: white;
+    left: 30%;
+}
+
+.intro p:first-of-type {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 20;
+    margin: 0;
+    border-bottom: 2px solid currentColor;
+}
+
+.intro span:not(:first-of-type) {
+    margin-left: 1em;
+}
+
+.intro .avatar {
+    position: relative;
+    z-index: -1;
+    align-content: center;
+    border-radius: 50%;
+}
+
+.intro span a {
+    text-decoration: none;
+    color: white;
+}
+
+.tr-bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+	opacity: 0.5; 
+}
+
